@@ -35,7 +35,9 @@ class calculadora:
             self.Iniciar()
 
     def Menu(self):
-        print('========= Home Calculadora =========')
+        print('=====                  =====\n'
+              '===== Home Calculadora =====\n'
+              '=====                  =====\n')
         print('Escolha uma das Opções de calculo: \n'
         '[1]Adição\n'
         '[2]Subtração\n'
@@ -71,7 +73,7 @@ class calculadora:
         print(f'\nO Resultado de {self.num1} x {self.num2} = {self.resp}')
     
     def Retorno(self):
-        print('\nDeseja retornar ao Home Calculadora?\n Escolhas uma das opções abaixo:\n\n [S] Sim\n [N] Não \n\n Digite aqui:')
+        print('\nDeseja retornar ao Home Calculadora?\n Escolhas uma das opções abaixo:\n\n [S] Sim\n [N] Não \n\n Digite aqui:' '\n')
         self.ret = input()
 
         if self.ret == 'S' or self.ret == 's':
