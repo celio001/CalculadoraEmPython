@@ -1,7 +1,5 @@
 
 
-from ast import Num
-from tkinter import W
 
 
 class calculadora:
