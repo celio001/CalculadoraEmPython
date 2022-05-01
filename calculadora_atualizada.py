@@ -1,7 +1,4 @@
 
-
-
-
 class calculadora:
 
     def __init__(self):
